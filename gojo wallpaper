@@ -1,0 +1,83 @@
+/**
+* @name NotAnotherAnimeTheme
+* @author puckzxz#2080
+* @version 3.2
+* @description An easily customizable and automatically updating theme
+* @invite FdZhbjY
+* @source https://github.com/puckzxz/NotAnotherAnimeTheme
+* @updateUrl https://raw.githubusercontent.com/puckzxz/NotAnotherAnimeTheme/master/NotAnotherAnimeTheme.theme.css
+*/
+
+/* Import the base.css */
+@import url('https://tropix126.github.io/BetterDiscordStuff/friendgrid/v3/css/base.css');
+
+@import url(https://puckzxz.github.io/NotAnotherAnimeTheme/build/v3/naat.v3.css);
+
+/*
+  To make editing this theme easier I recommend using Notepad++
+  you can download it for free here https://notepad-plus-plus.org/download/
+*/
+
+/* Any images you use MUST end with .jpg or .png or any other image extension */
+
+:root {
+  /*
+    Theme Background
+  */
+  --theme-background-image: url('https://imgur.com/fSdgeBh.gif');
+  --theme-background-blur: none; /* Ensure no blur effect on background */
+
+  /*
+    Main Theme Color
+  */
+  --main-theme-color: rgb(67, 181, 129);
+
+  /*
+    Main Theme Transparency
+  */
+  --theme-transparency: rgba(0, 0, 0, 0.8);
+
+  /*
+    Home Icon Image
+  */
+  --home-icon-image: url(https://i.imgur.com/63g6Em8.jpg);
+
+  /*
+    Change your friends icon image position
+  */
+  --home-icon-image-position: center center;
+
+  /*
+    Change your friends icon image zoom
+  */
+  --home-icon-image-zoom: 100%;
+
+  /*
+    Server Listing Width
+    Single Column:  62px
+    Double Column:  126px
+    Triple Column:  184px
+    Quad Column:    242px
+  */
+  --server-listing-width: 126px;
+
+  /*
+    Font Size
+  */
+  --font-size: 100%;
+
+  /*
+    Mention colors
+  */
+  --mention-color: rgba(250, 166, 26, 0.05);
+  --mention-sider: rgba(250, 166, 26, 1);
+  --mention-hover-color: rgba(250, 166, 26, 0.08);
+
+  /*
+    Server category hover color
+  */
+  --category-hover-color: rgb(60, 202, 138);
+
+  /*
+    Change the unread server animation.
+    Replace it with "none" in
